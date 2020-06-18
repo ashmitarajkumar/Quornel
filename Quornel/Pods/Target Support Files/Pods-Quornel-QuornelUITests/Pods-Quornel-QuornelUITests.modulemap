@@ -1,0 +1,6 @@
+framework module Pods_Quornel_QuornelUITests {
+  umbrella header "Pods-Quornel-QuornelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
