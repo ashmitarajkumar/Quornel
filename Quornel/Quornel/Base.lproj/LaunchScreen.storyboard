@@ -15,12 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Quornel_Light" translatesAutoresizingMaskIntoConstraints="NO" id="gRZ-dF-Df7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Quornel_Light" translatesAutoresizingMaskIntoConstraints="NO" id="gRZ-dF-Df7">
                                 <rect key="frame" x="58" y="299" width="299" height="299"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96071070430000005" green="0.96082574129999998" blue="0.96067160370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gRZ-dF-Df7" secondAttribute="trailing" constant="57" id="35N-bw-Mhf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gRZ-dF-Df7" secondAttribute="bottom" constant="264" id="G9B-Ce-ZEP"/>
+                            <constraint firstItem="gRZ-dF-Df7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="255" id="i0P-Te-iny"/>
+                            <constraint firstItem="gRZ-dF-Df7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="vOp-vi-SiX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
