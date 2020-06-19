@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         table.delegate = self
         table.dataSource = self
-        title = "Notes"
+        title = "Welcome to Quornel!"
     }
 
     @IBAction func didTapNote(){
